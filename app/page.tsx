@@ -82,12 +82,12 @@ export default function Home() {
         <LinkCard key={link.url} {...link} />
       ))}
       <div className="flex gap-2 mt-8 text-white cursor-pointer">
-        {data.socials.map((link) => {
+        {data.socials.map((link, index) => {
           if (link.url.includes("twitter")) {
-            return <TwitterIcon />;
+            return <TwitterIcon key={index} />;
           }
           if (link.url.includes("github")) {
-            return <GithubIcon />;
+            return <GithubIcon key={index}/>;
           }
         })}
       </div>
