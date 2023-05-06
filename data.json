@@ -1,14 +1,16 @@
 {
   "name": "Mrinal Pramanick",
-  "avatar": "twitterimage",
+  "avatar": "https://pbs.twimg.com/profile_images/1623180887595843584/ViPwGZuA_400x400.jpg",
   "links": [
     {
-      "title": "Twitter",
-      "url": "https://twitter.com/Hi_Mrinal"
+      "title": "Personal Website",
+      "url": "https://twitter.com/Hi_Mrinal",
+      "image" : "https://pbs.twimg.com/profile_images/1623180887595843584/ViPwGZuA_400x400.jpg"
     },
     {
-      "title": "Github",
-      "url": "https://github.com/mrinalxdev"
+      "title": "Project Website ",
+      "url": "https://github.com/mrinalxdev",
+      "image" : "https://images.unsplash.com/photo-1683219722289-e9312a008157?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
     }
   ],
   "socials": [
@@ -19,6 +21,10 @@
     {
       "title": "Github",
       "url": "https://github.com/mrinalxdev"
+    },
+    {
+      "title": "Linked In",
+      "url" : "https://www.linkedin.com/in/hi-mrinal/"
     }
   ]
 }
