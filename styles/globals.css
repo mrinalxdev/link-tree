@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    scroll-behavior: smooth;
+
+::-webkit-scrollbar {
+    width : 5px;
 }
+::-webkit-scrollbar-track {
+    border-radius: 120px;
+}
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 120px;
+    transition: all;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: darkgray;
+    
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../public/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
