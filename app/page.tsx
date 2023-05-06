@@ -1,6 +1,6 @@
 import Image from "next/image";
 import data from "../data.json";
-import Head from "next/head";
+import Head from "./head";
 
 function TwitterIcon() {
   return (
@@ -69,9 +69,7 @@ function LinkCard({
 export default function Home() {
   return (
     <div className="flex items-center mx-auto flex-col w-full justify-center mt-16 px-8">
-    <Head>
-      <title>Mrinal's Project Link Tree</title>
-    </Head>
+    <Head />
       <Image
         className="rounded-full"
         alt={data.name}
